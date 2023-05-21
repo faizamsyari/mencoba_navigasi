@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         centerTitle: true,
       ),
       body: ListView(
-        padding: EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         children: [
           const Padding(
             padding: EdgeInsets.all(30),
@@ -30,6 +30,21 @@ class MyApp extends StatelessWidget {
                     fontSize: 18,
                     color: Colors.black,
                     fontWeight: FontWeight.bold)),
+          ),
+          const Text("Nama:Faiz Amsyari Rustam",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold)),
+          const Text("NIM: 1102210012",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold)),
+          const SizedBox(
+            height: 20,
           ),
           ElevatedButton.icon(
               style: ButtonStyle(
